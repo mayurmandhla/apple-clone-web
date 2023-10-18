@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+    overflow: hidden;
+    background-image: url(https://www.apple.com/v/home/be/images/heroes/iphone-15-pro/hero_iphone15pro_announce__c1coc7n3a0uq_large.jpg);
+    background-size: 200% 85%;
+    background-position: bottom;
+    
+   
+}
+
+#nav{
+    height: 43px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: fixed;
+}
+
+#nav h5{
+    color: rgb(0, 0, 0, 0.8);
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#nav i{
+    color: rgb(0, 0, 0, 0.8);
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.img1{
+   margin-left: 28%;
+   padding-top: 5%;
+}
+#center{
+    height: 7%;
+    background-color: white;
+    color: rgb(0, 0, 0, 0.7);
+    text-align: center; 
+}
+#center p{
+ padding-top: 15px;
+ font-size: 14px;
+}
+#center p a{
+    color: rgb(36, 126, 178);
+    text-decoration: none;
+}
+
+#detail h2{
+    font-size: 55px;
+    font-weight: 550;
+    letter-spacing: -2px;
+    padding-top: 10px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+#detail h3{
+    font-size: 27px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+#detail p{
+  font-size: 21px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #86868B;
+}
+
+#detail{
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#detail a{
+  color: #1D6EBA;
+  position: relative;
+  font-size: 21px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-decoration: none;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  
+}
+
+#page2{
+    height: 90%;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    background-image: url(https://www.apple.com/v/home/be/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    background-position: bottom;
+    
+   
+}
+
+#detail2 h2{
+    font-size: 55px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: -2px;
+    padding-top: 10px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+#detail2 h3{
+    font-size: 27px;
+    color: black;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+#detail2 p{
+  font-size: 21px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #86868B;
+}
+
+#detail2{
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#detail2 a{
+    position: relative;
+    color: #1D6EBA;
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+  }
+
+  #footer{
+    height: 75%;
+    width: 70%;
+    margin: 0 15%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #footer div{
+    height: 80%;
+    /* background-color: blue; */
+    
+    margin-top: 4%;
+  }
+
+  .fpart h3,h4{
+    color: #424245b0;
+    line-height: 25px;
+    
+  }
+  .fpart h3{
+    color: #424245f9;
+    margin-top: 30px;
+    font-size: 11px;
+    font-weight: 600;
+    
+  }
+
+  .fpart h4{
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 11px;
+  }
+
+
+.fpart h4{
+    position: relative;
+    width: fit-content;
+}
+
+.fpart h4::after{
+    content: "";
+    position: absolute;
+    background: rgba(50, 47, 47, 0.752);
+    bottom: 17%;
+    left: 0%;
+    height: 1.3px;
+    width: 100%;
+    opacity: 0;
+}
+
+.fpart h4:hover::after{
+    opacity: 1;
+} 
+
+#detail2 a::after{
+    content: "";
+    position: absolute;
+    background: rgba(50, 47, 47, 0.752);
+    height: 1.5px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+}
+#detail2 a:hover::after{
+     opacity: 1;
+}
+
+#detail a::after{
+    content: "";
+    position: absolute;
+    background: rgba(240, 232, 232, 0.752);
+    height: 1.2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+}
+#detail a:hover::after{
+     opacity: 1;
+}
